@@ -1,6 +1,6 @@
 [gd_scene load_steps=30 format=3 uid="uid://bjveasu3xidad"]
 
-[ext_resource type="Texture2D" uid="uid://ccy0urfogkwxd" path="res://Assets/player.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://djsl1g3u8ckgr" path="res://Assets/player.png" id="1"]
 [ext_resource type="Script" path="res://StateMachine/Jumping.gd" id="2"]
 [ext_resource type="Script" path="res://StateMachine/Moving.gd" id="3"]
 [ext_resource type="Script" path="res://StateMachine/StateMachine.gd" id="4"]
@@ -96,7 +96,7 @@ animations = [{
 }],
 "loop": false,
 "name": &"Attacking",
-"speed": 5.0
+"speed": 8.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -110,7 +110,7 @@ animations = [{
 }],
 "loop": false,
 "name": &"Falling",
-"speed": 5.0
+"speed": 8.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -118,7 +118,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"Idle",
-"speed": 5.0
+"speed": 8.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -132,7 +132,7 @@ animations = [{
 }],
 "loop": false,
 "name": &"Jumping",
-"speed": 5.0
+"speed": 8.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -155,7 +155,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"Moving",
-"speed": 5.0
+"speed": 11.0
 }]
 
 [sub_resource type="RectangleShape2D" id="16"]
